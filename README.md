@@ -6,13 +6,13 @@ Stage 0.
  Info about git became more clear. I definetly will use big part of it, but decided for now concentrate on simpler part and touch on more advanced in due time with a reference.
 
 ## Git:
-	 Udacity
+	**Udacity**
 		- new: git bash (I used to use cmd terminal :) )
 		- astonished: the way ~ and ^ ancestors count
 		- will use: 'Always check git status'
 		![udacity](https://github.com/YuraZagor/kottans-frontend/blob/main/png/udacity.PNG)
 
-	 learngitbranching.js.org :
+	 **learngitbranching.js.org** :
 		- new: remote repo
 		- astonished: push and pull arguments
 		- will use: git pull --rebase
@@ -20,12 +20,12 @@ Stage 0.
 
 ## 1. Linux CLI and Networking
 
-	 Linux Survival 
+	 **Linux Survival** 
 		- new: cat, kill -9, > & >> operators
 		- astonished: finger :)
 		- will use: > & >>, cat
 
-	 HTTP
+	 **HTTP**
 		- new: almost all -  TLS / SSL, protocol workflow 
 		- astonished: caching
 		- will use: TLS / SSL, GET, POST 
@@ -33,7 +33,7 @@ Stage 0.
 		
 ## 2. Git Collaboration
 
-	Introduction to Git and GitHub. Weeks 3, 4
+	**Introduction to Git and GitHub. Weeks 3, 4**
 	
 		- new: Now I understood how we decide if we use merge or rebase (first if we don't bother about linear
 		  structure, second if we don't need 'historical order' of changes)
@@ -41,7 +41,7 @@ Stage 0.
 		  text at the end of a comment body of a commit or a pull request 
 		- will use: Always sync my brances BEFORE starting any work on my own
 
-	learngitbranching.js.org
+	**learngitbranching.js.org**
 	
 		- new: here I got that I didn't have to go through the whole course in part 0. Git Basics
 		- astonished: mixing '~' & '^' in one command like git checkout HEAD~^2~3
