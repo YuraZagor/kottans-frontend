@@ -28,3 +28,16 @@ Stage 0.
 		- *new*: almost all -  TLS / SSL, protocol workflow 
 		- *astonished*: caching
 		- *will use*: TLS / SSL, GET, POST 
+		
+		
+## 2. Git Collaboration
+
+	*Introduction to Git and GitHub. Weeks 3, 4 * 
+		- *new*: Now I understood how we decide if we use merge or rebase (first if we don't bother about linear structure, second if we don't need 'historical order' of changes)
+		- *astonished*: sing # to adress issues by order- say #2 to adress issue #2, and closing it with "Closes: #2" text at the end of a comment body of a commit or a pull request 
+		- *will use*: Always sync my brances BEFORE starting any work on my own
+
+	* learngitbranching.js.org *
+		- *new*: here I got that I didn't have to go through the whole course in part 0. Git Basics
+		- *astonished*: mixing '~' & '^' in one command like git checkout HEAD~^2~3
+ 		- *will use*: git reset HEAD^ => for local branch (erase cast commit as if there was none and move HEAD as supposed to the last of remaining commits), git revert HEAD makes new commit that set the stage as it was before the commit we need to revert, and suits for remote branches
