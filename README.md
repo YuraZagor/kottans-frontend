@@ -1,16 +1,17 @@
 Stage 0.
-============================================================================================
+========
 
-## 0. Git Basics
+
+# 0. Git Basics
 
  Info about git became more clear. I definetly will use big part of it, but decided for now concentrate on simpler part and touch on more advanced in due time with a reference.
 
 ## Git:
-	**Udacity**
+	** Udacity **
 		- new: git bash (I used to use cmd terminal :) )
 		- astonished: the way ~ and ^ ancestors count
 		- will use: 'Always check git status'
-		![udacity](https://github.com/YuraZagor/kottans-frontend/blob/main/png/udacity.PNG)
+		![udacity](png/udacity.PNG)
 
 	 **learngitbranching.js.org** :
 		- new: remote repo
