@@ -11,7 +11,7 @@ Stage 0.
 		- new: git bash (I used to use cmd terminal :) )
 		- astonished: the way ~ and ^ ancestors count
 		- will use: 'Always check git status'
-		![udacity](png/udacity.PNG)
+		![udacity](https://github.com/YuraZagor/kottans-frontend/blob/c20a4a644824af5612c1fffb403cbf24512b95f6/png/udacity.PNG)
 
 	 **learngitbranching.js.org** :
 		- new: remote repo
