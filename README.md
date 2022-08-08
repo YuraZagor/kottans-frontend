@@ -62,12 +62,17 @@ Stage 0.
 		+ new: Some nuances on Box Model. Now I understand why so many css sheets start with * {margin: 0} , etc
 		+ astonished: 'position relative' and 'position absolute' positioning. Funny names, taking into consideration that 'absolute' positions element *relative* to it's containing div.  Also, < operator defining direct child 
 		+ will use: "n-th child" concept
+		task_html_css_intro/week1-2hTMLcSS.PNG
+![week1-2hTMLcSS](https://user-images.githubusercontent.com/109472016/183412006-e81ee180-ff98-423a-a4bb-f3a64d5f7b7e.png)
 
 	**Learn HTML(Eng)**
 	
 		+ new: I just realised that I'd never touched on tables before. Also, datalist was a new concept to me
 		+ astonished: why do we have this rather complex <label> -tag while we could make it just an attribute alongside with id, name, value and type for checkboxes 
  		+ will use: all forms seem very useful. Semantic HTML helps to make code easier to read/understand
+		
+		task_html_css_intro/codecademySemantic.PNG
+![codecademySemantic](https://user-images.githubusercontent.com/109472016/183411930-0feb0e05-ffa8-43fb-afff-651977cad090.png)
 
 
 	**Learn Css(Eng)**
@@ -75,3 +80,5 @@ Stage 0.
 		+ new: @font-face
 		+ astonished: visibility and opacity rulesets, css-way to make letters uppercase or lowercase (text-transform: uppercase/lowercase )
  		+ will use: css is a must-have knowledge for a front-ender, so I guess I will be forced to use most of it. 
+		
+![codecademyCss](https://user-images.githubusercontent.com/109472016/183411877-5dbb96bb-7cf1-4088-bb64-bfba67bed6e2.png)
