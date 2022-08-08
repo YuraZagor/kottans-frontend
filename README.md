@@ -53,3 +53,25 @@ Stage 0.
 		  supposed to the last of remaining commits), git revert HEAD makes new commit that set the stage as it
 		  was before the commit we need to revert, and suits for remote branches
 ![learngitbranching](https://user-images.githubusercontent.com/109472016/182022607-774eb473-7e2f-484e-9d13-05aabf79f326.png)
+
+
+## 3. Intro to HTML and CSS
+
+	**Introduction to Responsive Design. Weeks 1-2**
+	
+		+ new: Some nuances on Box Model. Now I understand why so many css sheets start with * {margin: 0} , etc
+		+ astonished: 'position relative' and 'position absolute' positioning. Funny names, taking into consideration that 'absolute' positions element *relative* to it's containing div.  Also, < operator defining direct child 
+		+ will use: "n-th child" concept
+
+	**Learn HTML(Eng)**
+	
+		+ new: I just realised that I'd never touched on tables before. Also, datalist was a new concept to me
+		+ astonished: why do we have this rather complex <label> -tag while we could make it just an attribute alongside with id, name, value and type for checkboxes 
+ 		+ will use: all forms seem very useful. Semantic HTML helps to make code easier to read/understand
+
+
+	**Learn Css(Eng)**
+	
+		+ new: @font-face
+		+ astonished: visibility and opacity rulesets, css-way to make letters uppercase or lowercase (text-transform: uppercase/lowercase )
+ 		+ will use: css is a must-have knowledge for a front-ender, so I guess I will be forced to use most of it. 
