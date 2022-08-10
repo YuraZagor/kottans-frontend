@@ -62,12 +62,17 @@ Stage 0.
 		+ new: Some nuances on Box Model. Now I understand why so many css sheets start with * {margin: 0} , etc
 		+ astonished: 'position relative' and 'position absolute' positioning. Funny names, taking into consideration that 'absolute' positions element *relative* to it's containing div.  Also, < operator defining direct child 
 		+ will use: "n-th child" concept
+		task_html_css_intro/week1-2hTMLcSS.PNG
+![week1-2hTMLcSS](https://user-images.githubusercontent.com/109472016/183412006-e81ee180-ff98-423a-a4bb-f3a64d5f7b7e.png)
 
 	**Learn HTML(Eng)**
 	
 		+ new: I just realised that I'd never touched on tables before. Also, datalist was a new concept to me
 		+ astonished: why do we have this rather complex <label> -tag while we could make it just an attribute alongside with id, name, value and type for checkboxes 
  		+ will use: all forms seem very useful. Semantic HTML helps to make code easier to read/understand
+		
+		task_html_css_intro/codecademySemantic.PNG
+![codecademySemantic](https://user-images.githubusercontent.com/109472016/183411930-0feb0e05-ffa8-43fb-afff-651977cad090.png)
 
 
 	**Learn Css(Eng)**
@@ -75,89 +80,3 @@ Stage 0.
 		+ new: @font-face
 		+ astonished: visibility and opacity rulesets, css-way to make letters uppercase or lowercase (text-transform: uppercase/lowercase )
  		+ will use: css is a must-have knowledge for a front-ender, so I guess I will be forced to use most of it. 
-
-## 4. Responsive Web Design
-
-	**Responsive web design basics**
-	
-		+ new: the idea to make minor breakpoints when necessary
-		+ astonished: "Classic readability theory suggests that an ideal column should contain 70 to 80 characters per line (about 8 to 10 words in English)."
-		+ will use: img { max-width: 100%; } and not simply 'width: 100%;'
-
-	**FLEXBOX. Вчимося верстати на флексах**
-	
-		+ new: you have to apoint 'order' for every element - even if U apointed 2 out of 3, U still have to directly apoint th 3rd one's order  
-		+ astonished: "flex-basis" + "flex-grow" & "flex-shrink" (why to have basis if one can make it bigger or smaller?) 
- 		+ will use: 'margin right: -8px;' for the left div + 'padding left: 8px;' for the right div for distancing
-
-
-	**Flexbox Froggy**
-	
-		+ new: 'flex-flow' as a joint of flex-direction and flex-wrap  
-		+ astonished: oreder here worked without apointing this attribute to every item in formatted div (as was mentioned in video2 of prev sub-topic)
-
-	**CSS Grid Layout**
-	
-		+ new: minmax(X (px/%/min-content/max-content/auto)),Y (px/fr/%/max-content/auto)) .  
-		 1fr can be max in 'minmax', but cannot be min (As I get it, 1fr makes it take most space available, which contradicts with the idea of 'min') 
-		+ astonished:  cases like 'minmax(max-content, auto)'  or  'minmax(50%, min-content)'
- 		+ will use: grid layout seems great for responsive sites
-
-	**Grid Garden**
-
-		Nothing new, good practice
-	
-
-
-
-
-
-
-
-	**CSS Grid Layout**
-	
-		+ new:   
-		+ astonished: 
- 		+ will use: 
-
-
-	**CSS Grid Layout**
-	
-		+ new:   
-		+ astonished: 
- 		+ will use: 
-
-
-	**CSS Grid Layout**
-	
-		+ new:   
-		+ astonished: 
- 		+ will use: 
-
-
-	**CSS Grid Layout**
-	
-		+ new:   
-		+ astonished: 
- 		+ will use: 
-
-
-	**CSS Grid Layout**
-	
-		+ new:   
-		+ astonished: 
- 		+ will use: 
-
-
-	**CSS Grid Layout**
-	
-		+ new:   
-		+ astonished: 
- 		+ will use: 
-
-
-	**CSS Grid Layout**
-	
-		+ new:   
-		+ astonished: 
- 		+ will use: 
