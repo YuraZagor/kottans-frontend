@@ -90,27 +90,33 @@ Stage 0.
 		+ new: the idea to make minor breakpoints when necessary
 		+ astonished: "Classic readability theory suggests that an ideal column should contain 70 to 80 characters per line (about 8 to 10 words in English)."
 		+ will use: img { max-width: 100%; } and not simply 'width: 100%;'
+![web dev](https://user-images.githubusercontent.com/109472016/183891539-317aa164-e580-493d-b14d-3820597728e2.png)
 
 	**FLEXBOX. Вчимося верстати на флексах**
 	
 		+ new: you have to apoint 'order' for every element - even if U apointed 2 out of 3, U still have to directly apoint th 3rd one's order  
 		+ astonished: "flex-basis" + "flex-grow" & "flex-shrink" (why to have basis if one can make it bigger or smaller?) 
  		+ will use: 'margin right: -8px;' for the left div + 'padding left: 8px;' for the right div for distancing
+![flexbox](https://user-images.githubusercontent.com/109472016/183891402-f6481c6e-abdc-4f57-a544-a82bf2349104.png)
 
 
 	**Flexbox Froggy**
 	
 		+ new: 'flex-flow' as a joint of flex-direction and flex-wrap  
 		+ astonished: oreder here worked without apointing this attribute to every item in formatted div (as was mentioned in video2 of prev sub-topic)
+![froggy](https://user-images.githubusercontent.com/109472016/183891458-1aced67a-ea13-4720-8228-55136dd835dc.png)
 
 	**CSS Grid Layout**
 	
 		+ new: minmax(X (px/%/min-content/max-content/auto)),Y (px/fr/%/max-content/auto)) .  
 		 1fr can be max in 'minmax', but cannot be min (As I get it, 1fr makes it take most space available, which contradicts with the idea of 'min') 
 		+ astonished:  cases like 'minmax(max-content, auto)'  or  'minmax(50%, min-content)'
- 		+ will use: grid layout seems great for responsive sites
+		+ will use: grid layout seems great for responsive sites
+ 	![CSS Grid Layout](https://user-images.githubusercontent.com/109472016/183891295-cb651e16-86c9-4c66-bec7-84f4d5f6ca52.png)
+	
 
 	**Grid Garden**
 
 		Nothing new, good practice
-	
+	![gridGarden](https://user-images.githubusercontent.com/109472016/183886037-40ae3039-22ae-4b4c-a10c-7201a2bb642c.png)
+
