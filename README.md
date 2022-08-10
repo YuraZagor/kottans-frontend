@@ -112,11 +112,12 @@ Stage 0.
 		 1fr can be max in 'minmax', but cannot be min (As I get it, 1fr makes it take most space available, which contradicts with the idea of 'min') 
 		+ astonished:  cases like 'minmax(max-content, auto)'  or  'minmax(50%, min-content)'
 		+ will use: grid layout seems great for responsive sites
- 	![CSS Grid Layout](https://user-images.githubusercontent.com/109472016/183891295-cb651e16-86c9-4c66-bec7-84f4d5f6ca52.png)
+ ![CSS Grid Layout](https://user-images.githubusercontent.com/109472016/183891295-cb651e16-86c9-4c66-bec7-84f4d5f6ca52.png)
 	
 
 	**Grid Garden**
 
 		Nothing new, good practice
-	![gridGarden](https://user-images.githubusercontent.com/109472016/183886037-40ae3039-22ae-4b4c-a10c-7201a2bb642c.png)
+		
+![gridGarden](https://user-images.githubusercontent.com/109472016/183886037-40ae3039-22ae-4b4c-a10c-7201a2bb642c.png)
 
