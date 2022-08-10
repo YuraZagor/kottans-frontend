@@ -80,3 +80,37 @@ Stage 0.
 		+ new: @font-face
 		+ astonished: visibility and opacity rulesets, css-way to make letters uppercase or lowercase (text-transform: uppercase/lowercase )
  		+ will use: css is a must-have knowledge for a front-ender, so I guess I will be forced to use most of it. 
+![codecademyCss](https://user-images.githubusercontent.com/109472016/183411877-5dbb96bb-7cf1-4088-bb64-bfba67bed6e2.png)
+
+
+## 4. Responsive Web Design
+
+	**Responsive web design basics**
+	
+		+ new: the idea to make minor breakpoints when necessary
+		+ astonished: "Classic readability theory suggests that an ideal column should contain 70 to 80 characters per line (about 8 to 10 words in English)."
+		+ will use: img { max-width: 100%; } and not simply 'width: 100%;'
+
+	**FLEXBOX. Вчимося верстати на флексах**
+	
+		+ new: you have to apoint 'order' for every element - even if U apointed 2 out of 3, U still have to directly apoint th 3rd one's order  
+		+ astonished: "flex-basis" + "flex-grow" & "flex-shrink" (why to have basis if one can make it bigger or smaller?) 
+ 		+ will use: 'margin right: -8px;' for the left div + 'padding left: 8px;' for the right div for distancing
+
+
+	**Flexbox Froggy**
+	
+		+ new: 'flex-flow' as a joint of flex-direction and flex-wrap  
+		+ astonished: oreder here worked without apointing this attribute to every item in formatted div (as was mentioned in video2 of prev sub-topic)
+
+	**CSS Grid Layout**
+	
+		+ new: minmax(X (px/%/min-content/max-content/auto)),Y (px/fr/%/max-content/auto)) .  
+		 1fr can be max in 'minmax', but cannot be min (As I get it, 1fr makes it take most space available, which contradicts with the idea of 'min') 
+		+ astonished:  cases like 'minmax(max-content, auto)'  or  'minmax(50%, min-content)'
+ 		+ will use: grid layout seems great for responsive sites
+
+	**Grid Garden**
+
+		Nothing new, good practice
+	
