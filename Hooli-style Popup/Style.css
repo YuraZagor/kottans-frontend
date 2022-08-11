@@ -13,6 +13,35 @@ li {
 	padding: 10px;
 	
 }
+
 .menu img {
-	width: 1.5em;
+	width: 1.1em;
+	height: 1.1em;
+}
+
+.popup{
+	margin: 0.5em;
+	background-image: url(./popup-icons/popup-button.png);
+	background-repeat: no-repeat;
+}
+
+.popups-container{
+	height: 600px;
+	width: 300px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	border: 0.5px solid lightcoral;
+	border-radius: 6px;
+	justify-items: center;
+	align-items: center;
+}
+
+.popup--item{
+	height: 2em;
+	width: 2em;
+	border: 0.1px solid lightgrey;
+}
+.checkbox-icon {
+	width:1px;
+	height: 1px;
 }
