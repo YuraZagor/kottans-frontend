@@ -8,36 +8,51 @@
 </head>
 <body>
 	<nav>
-		<ul>
-			<li class="menu"><a href="#">Mail</a></li>
-			<li class="menu"><a href="#">Images</a></li>
-			<li class="menu popup">
-				<label for=""><input type="checkbox" class='checkbox-icon'></label>
+		<ul class="ul--menu">
+			<li class="li--menu"><a href="#">Mail</a></li>
+			<li class="li--menu"><a href="#">Images</a></li>
+
+			<li class="li--menu popup">
+				<label><input type="checkbox" class='checkbox-icon'></label>
 			</li>
-			<li class="menu"><a href="#"><img src="./popup-icons/bell.png" alt="remembering-bell"></a></li>
-			<li class="menu"><a href="#">login</a></li>
+			
+			<li class="li--menu"><a href="#"><img src="./popup-icons/bell.png" alt="remembering-bell"></a></li>
+			<li class="li--menu"><a href="#">login</a></li>
 
 		</ul>
 	</nav>
-	<section class="popups-container">
-		<a href="#"><img src="./popup-icons/apps.png" alt="alt" class="popup--item small"></a>
-		<a href="#"><img src="./popup-icons/blogs.png" alt="alt" class="popup--item small"></a>
-		<a href="#"><img src="./popup-icons/calendar.png" alt="alt" class="popup--item small"></a>
-		<a href="#"><img src="./popup-icons/chat.png" alt="alt" class="popup--item small"></a>
-		<a href="#"><img src="./popup-icons/classroom.png" alt="alt" class="popup--item small"></a>
-		<a href="#"><img src="./popup-icons/collection.png" alt="alt" class="popup--item small"></a>
-		<a href="#"><img src="./popup-icons/contacts.png" alt="alt" class="popup--item"></a>
-		<a href="#"><img src="./popup-icons/documents.png" alt="alt" class="popup--item small"></a>
-		<a href="#"><img src="./popup-icons/files.png" alt="alt" class="popup--item"></a>
-		<a href="#"><img src="./popup-icons/mail.png" alt="alt" class="popup--item small"></a>
-		<a href="#"><img src="./popup-icons/maps.png" alt="alt" class="popup--item"></a>
-		<a href="#"><img src="./popup-icons/mars.png" alt="alt" class="popup--item"></a>
-		<a href="#"><img src="./popup-icons/mic.png" alt="alt" class="popup--item"></a>
-		<a href="#"><img src="./popup-icons/news.png" alt="alt" class="popup--item"></a>
-		<a href="#"><img src="./popup-icons/photos.png" alt="alt" class="popup--item small"></a>
-		<a href="#"><img src="./popup-icons/promo.png" alt="alt" class="popup--item"></a>
-		<a href="#"><img src="./popup-icons/tanslation.png" alt="alt" class="popup--item"></a>
-		<a href="#"><img src="./popup-icons/videos.png" alt="alt" class="popup--item"></a>
+	<section class="outer-popup-container">
+		<div class="inner-container">
+			<div class="popups--container">
+				<a href="#"><img src="./popup-icons/apps.png" alt="alt" class="popup--item"></a>
+				<a href="#"><img src="./popup-icons/blogs.png" alt="alt" class="popup--item"></a>
+				<a href="#"><img src="./popup-icons/calendar.png" alt="alt" class="popup--item"></a>
+				<a href="#"><img src="./popup-icons/chat.png" alt="alt" class="popup--item"></a>
+				<a href="#"><img src="./popup-icons/classroom.png" alt="alt" class="popup--item"></a>
+				<a href="#"><img src="./popup-icons/collection.png" alt="alt" class="popup--item"></a>	
+
+				<label id="show--all--label" for='show--all'> Show All </label>
+				<input type="checkbox" id='show--all' class='show--all--icons'>
+			</div>
+			
+			<div class="popups--container--all">
+				
+				<a href="#"><img src="./popup-icons/contacts.png" alt="alt" class="popup--item"></a>
+				<a href="#"><img src="./popup-icons/documents.png" alt="alt" class="popup--item"></a>
+				<a href="#"><img src="./popup-icons/files.png" alt="alt" class="popup--item"></a>
+				<a href="#"><img src="./popup-icons/mail.png" alt="alt" class="popup--item"></a>
+				<a href="#"><img src="./popup-icons/maps.png" alt="alt" class="popup--item"></a>
+				<a href="#"><img src="./popup-icons/mars.png" alt="alt" class="popup--item"></a>
+				<a href="#"><img src="./popup-icons/mic.png" alt="alt" class="popup--item"></a>
+				<a href="#"><img src="./popup-icons/news.png" alt="alt" class="popup--item"></a>
+				<a href="#"><img src="./popup-icons/photos.png" alt="alt" class="popup--item"></a>
+				<a href="#"><img src="./popup-icons/promo.png" alt="alt" class="popup--item"></a>
+				<a href="#"><img src="./popup-icons/tanslation.png" alt="alt" class="popup--item"></a>
+				<a href="#"><img src="./popup-icons/videos.png" alt="alt" class="popup--item"></a>			
+			</div>
+		</div>
+
+		
 	</section>
 
 	<link rel="stylesheet" href="./style.css">
