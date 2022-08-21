@@ -14,6 +14,7 @@
 .ul--menu {
 	display:flex;
 	justify-content: flex-end;
+	align-items: center;
 	
 }
 .li--menu {
@@ -22,28 +23,27 @@
 }
 
 .li--menu img {
-	width: 1.1em;
-	height: 1.1em;
+	width: 2.1em;
+	height: 2.1em;
+	cursor: pointer;
 }
 
-.popup{
-	margin: 0.5em;
-	background-image: url(./popup-icons/popup-button.png);
-	background-repeat: no-repeat;
+.sub-menu img {
+	width: 1.1em;
+	height: 1.1em;
 	cursor: pointer;
 }
 
 .outer-popup-container{
+	display: none;
 	position: absolute;
-	top: 30px;
+	top: 45px;
 	right: -80px;
 
-	display: none;
-	display:flex;
+
 }
 .inner-container{
-	/* height: 150px; */
-
+	max-height: 250px;
 	border: 0.5px solid lightcoral;
 	border-radius: 6px;
 	justify-items: center;
@@ -53,35 +53,35 @@
 
 }
 
-.popups--container, .popups--container--all{
+.popups--container{
 	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;	
+}
+.popups--container--all{
+	display: none;
 	grid-template-columns: 1fr 1fr 1fr;	
 }
 
 .popup--item{
-	height: 22em;
-	width: 22em;
-	border: 0.1px solid lightgrey;
 	padding: 2px;
 	margin: 10px;
 	user-select: none;
 }
 
 
-/* .checkbox-icon, .show--all {
+.checkbox-icon, .show--all {
 	position: absolute;
 	-webkit-appearance: none;
 	-moz-appearance: none;
-	appearance: none;	
-} */
+	appearance: none;		
+}
 
 
-#show--all--label{
+.show--all--label{
 	display: flex;
 	user-select: none;
-
-	/* left: 45px; */
-	width: 80%;
+	width: 100%;
+	max-width: 40vw;
 	align-content: center;
 	justify-content: center;
 
@@ -94,18 +94,45 @@
 }
 
 #checkbox-icon:checked ~ .outer-popup-container {
-	opacity: 1;
-	background-color: gold;
-	height: 250px;
-}
-
-.popups--container--all {
-	background-color: gold;
-	display: none;
+	display: block;
 }
 
 #show--all:checked ~ .popups--container--all {
-	background-color: aqua;
 	display: grid;
+}
 
+#show--all:checked ~ #show--all--label {
+	display: none;
+}
+
+.popup--item:hover, .li--menu:hover {
+	background-color: rgb(230, 207, 207);
+	border-color: #94989b;
+	transition: 0.3s ease-in-out;
+}
+
+.popup--item:active, .li--menu:active {
+	background-color: #ff9501;
+	border-color: #94989b;
+	transition: 0.3s ease-in-out;
+}
+
+.popup--item:focus, .li--menu:focus {
+	background-color: #e0ebf7;
+	border-color: #9d9ea0;
+	transition: ease 0.2s;
+}
+
+.checkbox-icon:active,
+.show--all:active,
+.checkbox-icon:focus,
+.show--all:focus,
+.checkbox-icon:hover,
+.show--all:hover {
+	-webkit-appearance:inherit ;
+	-moz-appearance:inherit;
+	appearance: inherit;	
+	background-color: #F3F6F9;
+	border-color: #007fff;
+	transition: ease 0.25s;
 }
