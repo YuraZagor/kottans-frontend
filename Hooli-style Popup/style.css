@@ -48,7 +48,7 @@
 	border-radius: 6px;
 	justify-items: center;
 	align-items: center;
-	scroll-behavior: smooth;
+	scroll-behavior: auto;
 	overflow-y:scroll;
 	margin: 0 10px;
 	padding: 0 10px;
@@ -78,10 +78,7 @@
 	appearance: none;		
 }
 
-.navi{
-	height: 42px;
-	overflow:visible;
-}
+
 .show--all--label{
 	display: flex;
 	user-select: none;
@@ -125,11 +122,10 @@
 .popup--item:focus, .li--menu:focus {
 	background-color: #e0ebf7;
 	border-color: #9d9ea0;
-	transition: ease 0.2s;	
+	transition: ease 0.2s;
 }
 
 .checkbox-icon:active,
-.checkbox-icon:focus-visible,
 .show--all:active,
 .checkbox-icon:focus,
 .show--all:focus,
@@ -138,19 +134,10 @@
 	-webkit-appearance:inherit ;
 	-moz-appearance:inherit;
 	appearance: inherit;	
-
-	background-color: #F3F6F9;
-	border-color: #b3b4b4;
-	transition: ease 0.25s;
-}
-
-.checkbox-icon:active + label,
-.checkbox-icon:focus + label,
-.checkbox-icon:hover + label {
 	background-color: #F3F6F9;
 	border-color: #007fff;
 	transition: ease 0.25s;
- }
+}
 
 @media screen and ( max-width: 620px) {
 	.inner-container{
@@ -158,3 +145,4 @@
 		padding: 0;
 	}
 }
+
