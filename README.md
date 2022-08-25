@@ -1,3 +1,30 @@
+# kottans-frontend
+### Todo list :
+
+ 1. **General**
+    - [x] [Git Basics](#0-git-basics)
+    - [x] [Linux CLI and Networking](#1-linux-cli-and-networking)
+    - [x] [VCS (hello gitty), GitHub and Collaboration](#2-vcs-hello-gitty-github-and-collaboration)
+  
+ 2. **Front-End Basics**
+
+    - [x] [Intro to HTML & CSS](#3-intro-to-html-and-css)
+    - [x] [Responsive Web Design](#5-responsive-web-design)
+    - [ ] [HTML & CSS Practice](#6-html-css-practice) (In progress)
+    - [x] [JavaScript Basics](#7-javascript-basics)
+    - [ ] [Document Object Model - practice](#8-document-object-model-practice)
+  
+ 3. **Advanced Topics**
+
+    - [ ] [Building a Tiny JS World (pre-OOP) - practice](#9-building-a-tiny-js-world-pre-oop-practice)
+    - [ ] [Object oriented JS - practice](#10-object-oriented-js-practice)
+    - [ ] [OOP exercise - practice](#11-oop-exercise-practice)
+    - [ ] [Offline Web Applications](#12-offline-web-applications)
+    - [ ] [Memory pair game — real project!](#13-memory-pair-game-real-project)
+    - [ ] [Website Performance Optimization](#14-website-performance-optimization)
+    - [ ] [Friends App - real project!](#15-friends-app-real-project)
+___
+
 Stage 0.
 ========
 
@@ -128,4 +155,18 @@ Stage 0.
 		+ astonished: [].concat(...arr) way to make a copy of arr
 		+ will use: map(), reduce(), filter(), splice(), slice(), sort(), findIndex
 		+ NB : need to study more on forEach(), reduce(), .keys()  and str.substring()
+		
+
+		task_js_basics/js.PNG
+		
+![Снимок](https://user-images.githubusercontent.com/109472016/186687002-1506f051-8b1b-47ee-9640-386ed230f55b.png)
+![js](https://user-images.githubusercontent.com/109472016/186687190-229b7826-6bd8-4ced-89a9-e9b36c4de95b.png)
+![es6](https://user-images.githubusercontent.com/109472016/186687348-0b851c4b-d941-49f1-b54a-e017d3d278a9.png)	
+![basicStructures](https://user-images.githubusercontent.com/109472016/186687458-0e586da7-d142-45d0-a45c-48cd4141cf57.png)
+![basicAlgoScripting](https://user-images.githubusercontent.com/109472016/186687522-3355f51f-8a3d-43ac-b3f6-dcf669250915.png)
+![IntermedAlgoScr](https://user-images.githubusercontent.com/109472016/186687563-e2f4c299-3207-4d89-ae79-cb9680298c1e.png)
+![FunctionalProgr](https://user-images.githubusercontent.com/109472016/186687624-ba7546ce-82dd-40fc-8d0e-5cc6d527e41f.png)
+		
+		
+		
 
