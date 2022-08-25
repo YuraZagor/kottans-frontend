@@ -121,3 +121,11 @@ Stage 0.
 		
 ![gridGarden](https://user-images.githubusercontent.com/109472016/183886037-40ae3039-22ae-4b4c-a10c-7201a2bb642c.png)
 
+
+## JS Basics
+	
+		+ new: some array methods were completely new to me, e.g. arr.some(),  arr.findIndex(), arr.flat()
+		+ astonished: [].concat(...arr) way to make a copy of arr
+		+ will use: map(), reduce(), filter(), splice(), slice(), sort(), findIndex
+		+ NB : need to study more on forEach(), reduce(), .keys()  and str.substring()
+
