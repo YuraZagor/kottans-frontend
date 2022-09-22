@@ -10,17 +10,17 @@
 
     - [x] [Intro to HTML & CSS](#3-intro-to-html-and-css)
     - [x] [Responsive Web Design](#5-responsive-web-design)
-    - [ ] [HTML & CSS Practice](#6-html-css-practice) (In progress)
+    - [x] [HTML & CSS Practice](#6-html-css-practice) 
     - [x] [JavaScript Basics](#7-javascript-basics)
-    - [ ] [Document Object Model - practice](#8-document-object-model-practice)
+    - [x] [Document Object Model - practice](#8-document-object-model-practice) 
   
  3. **Advanced Topics**
 
-    - [ ] [Building a Tiny JS World (pre-OOP) - practice](#9-building-a-tiny-js-world-pre-oop-practice)
-    - [ ] [Object oriented JS - practice](#10-object-oriented-js-practice)
-    - [ ] [OOP exercise - practice](#11-oop-exercise-practice)
+    - [x] [Building a Tiny JS World (pre-OOP) - practice](#9-building-a-tiny-js-world-pre-oop-practice)
+    - [x] [Object oriented JS - practice](#10-object-oriented-js-practice)
+    - [x] [OOP exercise - practice](#11-oop-exercise-practice)
     - [ ] [Offline Web Applications](#12-offline-web-applications)
-    - [ ] [Memory pair game — real project!](#13-memory-pair-game-real-project)
+    - [x] [Memory pair game — real project!](#13-memory-pair-game-real-project)
     - [ ] [Website Performance Optimization](#14-website-performance-optimization)
     - [ ] [Friends App - real project!](#15-friends-app-real-project)
 ___
@@ -148,6 +148,13 @@ Stage 0.
 		
 ![gridGarden](https://user-images.githubusercontent.com/109472016/183886037-40ae3039-22ae-4b4c-a10c-7201a2bb642c.png)
 
+## HTML & CSS Practice
+
+### Hooli-Popup:
+
+[Demo](https://yurazagor.github.io/) |
+[Code base](https://github.com/YuraZagor/YuraZagor.github.io)
+
 
 ## JS Basics
 	
@@ -167,6 +174,64 @@ Stage 0.
 ![IntermedAlgoScr](https://user-images.githubusercontent.com/109472016/186687563-e2f4c299-3207-4d89-ae79-cb9680298c1e.png)
 ![FunctionalProgr](https://user-images.githubusercontent.com/109472016/186687624-ba7546ce-82dd-40fc-8d0e-5cc6d527e41f.png)
 		
+
+	
 		
+## DOM
+
+	**DOM lecture**
+	
+		+ new: Actually, I already saw this lecture before. Anyways, concept of adressing elements by html-tags seems a good touch-on   
+		+ astonished: the difference in "this" for different event-listeners
+		+ will use: selectors 
+
+
+	**Algorithm Scripting Challenges**
+	
+		+ new: binary code 
+		+ astonished: focus on rather complex mathematicas concepts, demanding good math background knowledge  
+ 		+ will use: the phrase "Fibonacci Number" when I want my wife hate me
+
+
+[Demo](https://yurazagor.github.io/DOM/) |
+[Code base](https://github.com/YuraZagor/DOM)
 		
 
+## Building a Tiny JS World (pre-OOP)
+
+[Demo](https://yurazagor.github.io/tjsw_pre_OOP/) |
+[Code base](https://github.com/YuraZagor/tjsw_pre_OOP)
+
+
+## Object-Oriented JavaScript
+	**OOP Classes**
+	
+		+ new: class-methods instead of outer functions   
+		+ astonished: now  finally I got the propcess behind the scenes with 'new', I mean, creation of a new Obj, Arr, Num etc 
+		+ will use: I like Classes over prototypes, so I will definitely use them 
+
+
+	**OOP Prototypes**
+	
+		+ new:  .call() to call the callback function and not the object itself
+		+ astonished: difference __proto__ vs .prototype , now it seems much more clear
+ 		+ will use: I preger Classes, but surely this knowledge will help working with legacy-codes
+
+	Classic Frogger Game
+
+[Demo](https://yurazagor.github.io/frontend-nanodegree-arcade-game/) |
+[Code base](https://github.com/YuraZagor/frontend-nanodegree-arcade-game)
+	
+	Сodewars
+		+ It was fun that solving just one task on ES6 -basis gave more progress-points than like ten other tasks
+
+## OOP exercise
+	a-tiny-JS-world:
+[Demo](https://yurazagor.github.io/a-tiny-JS-world/) |
+[Code base](https://github.com/YuraZagor/a-tiny-JS-world)
+
+## Memory – Pair Game
+ Classic Frogger Game
+
+[Demo](https://yurazagor.github.io/frontend-nanodegree-arcade-game/) |
+[Code base](https://github.com/YuraZagor/frontend-nanodegree-arcade-game)
